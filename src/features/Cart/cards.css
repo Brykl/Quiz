@@ -1,0 +1,21 @@
+.card-warp {
+    width: 50vw;
+    /* background-color: beige; */
+}
+
+.answers {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    width: 25vw;
+    height: 50px;
+    background-color: rgb(144, 144, 160);
+}
+
+.card:hover {
+    background-color: rgb(113, 113, 196);
+    cursor: pointer;
+}

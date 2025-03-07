@@ -1,0 +1,15 @@
+.cards {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+.card {
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(170, 196, 187);
+}
