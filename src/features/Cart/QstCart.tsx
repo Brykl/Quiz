@@ -18,7 +18,7 @@ const QstCart = ({ questions }: { questions: Questions }) => {
     const navigate = useNavigate();
 
 
-    const { id } = useParams<{ id: string }>();
+    const  id  = useParams<{ id: string }>();
 
     const currentNumber = Number(id.replace('question', ''));
 
