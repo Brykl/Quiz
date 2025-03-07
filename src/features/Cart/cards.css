@@ -3,15 +3,14 @@
     /* background-color: beige; */
 }
 
-.answers {
+/* .answers {
     display: grid;
-    gap: 10%;
-    grid-template-columns: 1fr 1fr;
-}
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+} */
 
 .card {
-    width: 25vw;
-    height: 50px;
+    height: 75px;
     background-color: rgb(144, 144, 160);
 }
 

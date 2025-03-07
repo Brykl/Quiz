@@ -4,6 +4,7 @@ import data from '../../questionsData/qstData.json'
 import { Box, Typography } from '@mui/material'
 import QstCart from '../../features/Cart/QstCart'
 
+
 export default function CardPage() {
 
     const { id } = useParams<{ id: string}>()
@@ -18,6 +19,7 @@ export default function CardPage() {
     <>
     <Box sx={{height: '100vh', width: '100vw',
         display: "flex", justifyContent: 'center', alignItems: 'center'}}>
+
     <QstCart questions={card}/>
     </Box>
 
